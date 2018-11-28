@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block search_result %}
+    <table class="hover">
+	  <thead>
+	    <tr>
+	      <th style="width: 85%">商品</th>
+	      <th style="width: 15%">库存</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+        {% for item in itemInfo %}
+            <tr>
+                <td>{{ item.item_name }}</td>
+                <td>{{ item.item_count }}</td>
+            </tr>
+        {% endfor %}
+	  </tbody>
+	</table>
+{% endblock search_result %}
