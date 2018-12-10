@@ -9,13 +9,13 @@ class ItemInfo(Document):   # 继承mongoengine自带的Document类
     # original_price = StringField()    # 不显示价格
     # 数据库元参数
     meta = {
-            'collection':'ORIGINAL_SHEET',  # 指定数据库中的表（sheet）
+            'collection':'PRODUCT_SHEET',  # 指定数据库中的表（sheet）
             }
 
-class ListStatus(Document):    # 列表更新状态
-    update_time = StringField()
-    status = StringField()
-    sign = IntField()
-    meta = {
-        'collection': 'STATUS',
-    }
+# class ListStatus(Document):    # 列表更新状态
+#     update_time = StringField()
+#     status = StringField()
+#     sign = IntField()
+#     meta = {
+#         'collection': 'STATUS',
+#     }
