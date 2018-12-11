@@ -11,21 +11,19 @@
 	<title>搜一搜小工具</title>
 </head>
 <body>
- 	<div data-sticky-container>
-		<div class="top-bar sticky" data-sticky data-margin-top="0" id="top">
-		  <div class="top-bar-left">
-			  <ul class="menu" data-dropdown-menu>
-				  <li><a href="/cosmetic"><i class="fa fa-home fa-lg"></i></a></li>
-				  <form action="/cosmetic/search" method="get" style="margin-bottom: -20px;">
-					  <div class="input-group">
-						  <input type="search" name="search" placeholder="搜索商品">
-						  <div class="input-group-button">
-							  <input type="submit" class="button" value="搜索">
-						  </div>
+	<div data-sticky-container>
+		<div class="top-bar sticky" data-sticky data-margin-top="0">
+		  <ul class="menu">
+			  <a href="/cosmetic"><i class="fa fa-home fa-lg"></i></a>
+			  <form action="/cosmetic/search" method="get" style="margin-bottom: -20px;">
+				  <div class="input-group">
+					  <input type="search" name="search" placeholder="搜索商品">
+					  <div class="input-group-button">
+						  <input type="submit" class="button" value="搜索">
 					  </div>
-				  </form>
-			  </ul>
-		  </div>
+				  </div>
+			  </form>
+		  </ul>
 		</div>
 	</div>
 	<div class="placeholder"></div>
@@ -44,10 +42,6 @@
 	})
 </script>
 <style type="text/css">
-	.top {
-		position: fixed;
-		top: 0;
-	}
 	.title-bar {
 	  width: 100%;
 	  z-index: 10;
