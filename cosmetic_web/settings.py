@@ -25,8 +25,9 @@ SECRET_KEY = 'kq5ao-^042%msc%a)31h@4t15x6to25tr1!g6_gp0imajodul='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.jyu106.top',]
-
+ALLOWED_HOSTS = ['www.jyu106.top',
+                 '127.0.0.1',
+                 ]
 
 # Application definition
 

@@ -4,8 +4,9 @@
     <table class="hover">
 	  <thead>
 	    <tr>
-			<th style="width: 85%">商品</th>
-	      	<th style="width: 15%">库存</th>
+			<th style="width: 80%">商品</th>
+	        <th style="width: 10%">库存</th>
+			<th style="width: 10%">价格</th>
 	    </tr>
 	  </thead>
 	  <tbody>
@@ -13,6 +14,7 @@
             <tr>
                 <td>{{ item.item_name }}</td>
                 <td>{{ item.item_count }}</td>
+		<td>￥{{ item.item_price }}</td>
             </tr>
         {% endfor %}
 	  </tbody>
