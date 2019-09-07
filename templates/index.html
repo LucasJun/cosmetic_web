@@ -31,6 +31,16 @@
 	{% block search_result %}{%endblock search_result%}
 </body>
 <script type="text/javascript">
+	function showImg(span){
+		var imgUrl = $(span).attr("img-url");
+		var note = $(span).attr("note");
+		if(imgUrl == ""){
+			return;
+		}
+		$('.img-modal .modal-body .img').attr("src",imgUrl);
+		$('.img-modal .modal-footer .note').html(note);
+		$('.img-modal').modal('toggle');
+	}
 	$(document).ready(function(){
 		$(document).foundation();
 	})

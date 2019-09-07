@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kq5ao-^042%msc%a)31h@4t15x6to25tr1!g6_gp0imajodul='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['www.jyu106.top',
                  '127.0.0.1',
@@ -124,4 +124,4 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)   # static文件夹路径
 
 # 项目设置中设置接入MongoDB数据库系统
 from mongoengine import connect
-connect('COSMETIC_DATA', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
+connect('cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口

@@ -14,7 +14,7 @@ def index(request):
 def search(request):
     request.encoding = 'utf-8'              # 接收input编码
     index_data = request.GET['search']      # 获取search请求数据
-    itemInfo = ItemInfo.objects(item_name__icontains=index_data)    # mongoengine提供的检索方法，返回object对象
+    itemInfo = ItemInfo.objects(title__icontains=index_data)    # mongoengine提供的检索方法，返回object对象
     context = {
         'itemInfo': itemInfo,
     }
