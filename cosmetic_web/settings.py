@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kq5ao-^042%msc%a)31h@4t15x6to25tr1!g6_gp0imajodul='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*',]
+ALLOWED_HOSTS = ['www.jyu106.top',
+                 '127.0.0.1',
+                 ]
 
 # Application definition
 
@@ -73,12 +75,12 @@ WSGI_APPLICATION = 'cosmetic_web.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 
 # Password validation
@@ -118,8 +120,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)   # static文件夹路径
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),
+                    # '/var/www/cosmetic_web/static/',
+                    ]   # static文件夹路径
+
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # 项目设置中设置接入MongoDB数据库系统
 from mongoengine import connect
-connect('cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
+connect(db='cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
+
+# connect(db='cosmetic', username='lucas', password='mongodb', host='47.107.138.160', port=27017)

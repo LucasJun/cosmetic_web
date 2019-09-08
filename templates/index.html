@@ -4,9 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device-width, initial-scale=1">
 	<link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/semantic.min.css' %}">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="{% static 'js/jquery.js' %}"></script>
 	<script src="{% static 'js/foundation.js' %}"></script>
+	<script src="{% static 'js/semantic.min.js' %}"></script>
+	<script src="{% static 'js/my.js' %}"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="{% static 'imgs/favicon.ico' %}">
 	<title>搜一搜小工具</title>
 </head>
@@ -29,18 +32,16 @@
 	<div class="placeholder"></div>
 	{% block all_item %}{% endblock all_item %}
 	{% block search_result %}{%endblock search_result%}
+	<div class="reveal" id="detail-modal" data-reveal>
+
+		<p id="note-modal"></p>
+		<img id="img-modal" style="display:flex; align-items:center; justify-content:center;">
+	  <button class="close-button" data-close aria-label="Close reveal" type="button">
+		<span aria-hidden="true">&times;</span>
+	  </button>
+	</div>
 </body>
 <script type="text/javascript">
-<!--	function showImg(span){-->
-<!--		var imgUrl = $(span).attr("img-url");-->
-<!--		var note = $(span).attr("note");-->
-<!--		if(imgUrl == ""){-->
-<!--			return;-->
-<!--		}-->
-<!--		$('.img-modal .modal-body .img').attr("src",imgUrl);-->
-<!--		$('.img-modal .modal-footer .note').html(note);-->
-<!--		$('.img-modal').modal('toggle');-->
-<!--	}-->
 	$(document).ready(function(){
 		$(document).foundation();
 	})
