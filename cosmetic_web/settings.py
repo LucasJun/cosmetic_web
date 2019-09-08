@@ -124,5 +124,5 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)   # static文件夹路径
 
 # 项目设置中设置接入MongoDB数据库系统
 from mongoengine import connect
-connect('cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
+connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)  # 选择连接的数据库，指定host和端口
 #STATIC_ROOT = os.path.join(BASE_DIR, "static/")
