@@ -12,17 +12,10 @@
 	  <tbody>
         {% for item in itemInfo %}
             <tr>
-                <td><a data-open="{{ item.modal_id }}">{{ item.title }}</a></td>
+                <td><a data-open="detail-modal" onclick="showImg(this)" img-url="{{ item.img_url }}" note="{{ item.note }}">{{ item.title }}</a></td>
                 <td>{{ item.count }}</td>
 		<td>￥{{ item.price }}</td>
             </tr>
-<!--			<div class="reveal" id="{{ item.modal_id }}" data-reveal>-->
-<!--				<p>{{ item.note }}</p>-->
-<!--				<img src="{{ item.img_url }}">-->
-<!--			  <button class="close-button" data-close aria-label="Close reveal" type="button">-->
-<!--				<span aria-hidden="true">&times;</span>-->
-<!--			  </button>-->
-<!--			</div>-->
         {% endfor %}
 	  </tbody>
 	</table>

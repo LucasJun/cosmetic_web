@@ -19,4 +19,6 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cosmetic_web.settings')
 sys.path.append('/var/www/html/cosmetic_web')
 
+sys.path.append('/var/www/html/cosmetic_web')
+
 application = get_wsgi_application()
