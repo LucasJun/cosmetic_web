@@ -32,10 +32,36 @@
 	<div class="placeholder"></div>
 	{% block all_item %}{% endblock all_item %}
 	{% block search_result %}{%endblock search_result%}
-	<div class="reveal" id="detail-modal" data-reveal>
 
-		<p id="note-modal"></p>
-		<img id="img-modal" style="display:flex; align-items:center; justify-content:center;">
+
+	<div class="ui modal">
+	  <i class="close icon"></i>
+	  <div class="header">
+		模态框标题
+	  </div>
+	  <div class="image content">
+		<div class="image">
+		  图像可以出现在左边或图标上
+		</div>
+		<div class="description">
+		  描述可以出现在右边
+		</div>
+	  </div>
+	  <div class="actions">
+		<div class="ui button">取消</div>
+		<div class="ui button">确定</div>
+	  </div>
+	</div>
+
+
+
+	<div class="reveal" id="detail-modal" data-reveal>
+		<div class="image content" style="padding: 20px;">
+			<img id="img-modal">
+		</div>
+		<div class="description">
+			<p id="note-modal"></p>
+		</div>
 	  <button class="close-button" data-close aria-label="Close reveal" type="button">
 		<span aria-hidden="true">&times;</span>
 	  </button>
