@@ -130,4 +130,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),
 from mongoengine import connect
 connect(db='cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
 
-# connect(db='cosmetic', username='lucas', password='mongodb', host='47.107.138.160', port=27017)
+# connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)
