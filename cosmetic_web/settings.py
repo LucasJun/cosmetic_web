@@ -23,21 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kq5ao-^042%msc%a)31h@4t15x6to25tr1!g6_gp0imajodul='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
+DEBUG = False
 
 ALLOWED_HOSTS = ['www.jyu106.top',
                  '127.0.0.1',
-<<<<<<< HEAD
-<<<<<<< HEAD
-]
-=======
-                 ]
->>>>>>> 3a79e67ec5a9b9e8e484c6965491244d8cbd1dee
-=======
                  ]
 
-
->>>>>>> 8f6fd5c481fe3260c0cf96fe819ec46f9bd1e96a
 
 # Application definition
 
@@ -82,31 +74,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'cosmetic_web.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 8f6fd5c481fe3260c0cf96fe819ec46f9bd1e96a
 #DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #    }
 #}
-<<<<<<< HEAD
-=======
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
->>>>>>> 3a79e67ec5a9b9e8e484c6965491244d8cbd1dee
-=======
->>>>>>> 8f6fd5c481fe3260c0cf96fe819ec46f9bd1e96a
 
 
 # Password validation
@@ -154,20 +127,9 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),
 
 # 项目设置中设置接入MongoDB数据库系统
 from mongoengine import connect
-<<<<<<< HEAD
-<<<<<<< HEAD
-connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)  # 选择连接的数据库，指定host和端口
-#STATIC_ROOT = os.path.join(BASE_DIR, "static/")
-=======
-connect(db='cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
 
-# connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)
->>>>>>> 3a79e67ec5a9b9e8e484c6965491244d8cbd1dee
-=======
+# connect(db='cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
 
-connect(db='cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
-
-# connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)
+connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)
 
 
->>>>>>> 8f6fd5c481fe3260c0cf96fe819ec46f9bd1e96a
