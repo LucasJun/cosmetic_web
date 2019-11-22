@@ -1,0 +1,92 @@
+{% extends "temp.html" %}
+
+{% block table %}
+    <div class="tpl-page-container tpl-page-header-fixed">
+        <div class="tpl-content-wrapper">
+            <div class="tpl-content-page-title">
+                <span>会员数据管理工具</span>
+            </div>
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+                    <div class="caption font-green bold">
+                        <span class="am-icon-code"></span> 会员列表
+                    </div>
+                    <div class="tpl-portlet-input tpl-fz-ml">
+                        <div class="portlet-input input-small input-inline">
+                            <form method="post">
+                                {% csrf_token %}
+                                <div class="input-icon right">
+                                    <i class="am-icon-search"></i>
+                                    <input type="text" name="search" class="form-control form-control-solid" placeholder="搜索..."> </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="tpl-block">
+                    <form class="am-form" method="post">
+<!--                    <div class="am-g">-->
+<!--                        <div class="am-u-sm-12 am-u-md-6">-->
+<!--                            <div class="am-btn-toolbar">-->
+<!--                                <div class="am-btn-group am-btn-group-xs">-->
+<!--                                    <button type="button" class="am-btn am-btn-default am-btn-success"><span class="am-icon-plus"></span> 新增</button>-->
+<!--                                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 修改</button>-->
+<!--                                    <button type="submit" value="delete" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="am-g">
+                        <div class="am-u-sm-12">
+
+                                {% csrf_token %}
+                                <table class="am-table am-table-striped am-table-hover table-main">
+                                    <thead>
+                                        <tr>
+                                            <th class="table-check"><input type="checkbox" class="tpl-table-fz-check"></th>
+                                            <th class="table-title">时间</th>
+                                            <th class="table-type">下单金额</th>
+                                            <th class="table-date am-hide-sm-only">订单详情</th>
+                                            <th class="table-set">操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for order in recent_order %}
+                                        <tr>
+                                            <td><input type="checkbox" value="{{ member.phone }}" name="check_box_list"></td>
+                                            <td>{{ order.order_time }}</td>
+                                            <td>￥{{ order.payment }}</td>
+                                            <td class="am-hide-sm-only">{{ order.note }}</td>
+                                            <td>
+                                                <div class="am-btn-toolbar">
+                                                    <div class="am-btn-group am-btn-group-xs">
+                                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
+                                                        <button class="am-btn am-btn-default am-btn-xs am-hide-sm-only"><span class="am-icon-copy"></span> 复制</button>
+                                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" onclick="order_del(this, '{{ order.uuid }}')"><span class="am-icon-trash-o"></span> 删除</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                                <hr>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+
+                <div class="tpl-alert"></div>
+            </div>
+        </div>
+    </div>
+<script>
+     /*用户-删除*/
+     function order_del(obj, uuid){
+        $.post('#', {'uuid': uuid});
+     }
+</script>
+
+{% endblock table %}

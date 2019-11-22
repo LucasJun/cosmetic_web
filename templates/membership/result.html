@@ -1,0 +1,30 @@
+{% extends "temp.html" %}
+
+{% block result %}
+    <div class="tpl-page-container tpl-page-header-fixed">
+        <div class="tpl-content-wrapper">
+            <div class="tpl-content-page-title">
+                会员入账小工具
+            </div>
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+                    <div class="caption font-green bold">
+                        <span class="am-icon-code"></span> 计算结果
+                    </div>
+                </div>
+                <div class="tpl-block ">
+                    <div>
+                        折扣前金额：{{ due }}元<br>
+                        折扣后金额：{{ payment }}元<br>
+                        优惠金额：{{ discounts }}元<br>
+                        账户余额：{{ balance }}元
+                    </div>
+                </div>
+            </div>
+            <a href="/membership"><button type="button" class="am-btn am-btn-primary">返回</button></a>
+
+        </div>
+    </div>
+
+
+{% endblock result %}

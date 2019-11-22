@@ -2,7 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e7d2046-f1b4-40a1-a8b7-25975d10e01b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/membership/middleware/verifyMiddleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/membership/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/membership/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/amazeui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/app-icon72x72@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-firefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-opera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-safari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/adminPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/blogPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/landing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/landingPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/loginPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/sidebarPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/i/startup-640x1096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/a9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/lbbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/syncfusion-icons-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/user01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/user02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/user03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/user04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/user05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/user06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/user07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/iscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membership/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membership/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membership/record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membership/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membership/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membership/temp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_web/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_web/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/semantic.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/semantic.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,96 +73,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmetic/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmetic_web/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmetic_web/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-              <folding>
-                <element signature="e#228#237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmetic/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1678#1685#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/all_item.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/search_result.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -107,80 +84,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/cosmetic/views.py" />
-        <option value="$PROJECT_DIR$/cosmetic/models.py" />
-        <option value="$PROJECT_DIR$/templates/all_item.html" />
-        <option value="$PROJECT_DIR$/templates/search_result.html" />
-        <option value="$PROJECT_DIR$/cosmetic_web/wsgi.py" />
-        <option value="$PROJECT_DIR$/cosmetic_web/settings.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cosmetic_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmetic_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmetic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmetic_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmetic_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmetic_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmetic_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmetic_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmetic_web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1TmFG6wFb9ccYzzxdu8mRkyEmmN" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NetBusinessSys" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/membership" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工程\cosmetic_web\templates\membership" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,47 +179,18 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16321656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31264728" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20541401" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3110762" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -313,102 +199,5 @@
     <MESSAGE value="local update" />
     <MESSAGE value="模态框调整" />
     <option name="LAST_COMMIT_MESSAGE" value="模态框调整" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/foundation.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python/Python36/Lib/wsgiref/simple_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmetic_web/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmetic_web/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python/Python36/Lib/site-packages/mongoengine/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="346" column="4" selection-start-line="346" selection-start-column="4" selection-end-line="346" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmetic/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/all_item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmetic_web/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="e#228#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmetic/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/foundation.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmetic_web/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1678#1685#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

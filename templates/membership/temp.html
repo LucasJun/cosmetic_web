@@ -1,0 +1,75 @@
+{% load static %}
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>后台管理系统</title>
+    <meta name="description" content="奈诗美妆后台管理系统">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="{% static 'assets/i/favicon.png' %}">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'assets/i/app-icon72x72@2x.png' %}">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="{% static 'assets/css/amazeui.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/admin.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/app.css' %}">
+    <script src="{% static 'assets/js/echarts.min.js' %}"></script>
+</head>
+
+<body data-type="index">
+    <header class="am-topbar am-topbar-inverse admin-header">
+        <div class="am-topbar-brand">
+            <a href="javascript:;" class="tpl-logo">
+                <img src="{% static 'assets/img/logo.png' %}" alt="">
+            </a>
+        </div>
+        <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
+
+        </div>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+    </header>
+
+
+    <div class="tpl-left-nav tpl-left-nav-hover">
+        <div class="tpl-left-nav-title">
+            奈诗美妆工具盒
+        </div>
+        <div class="tpl-left-nav-list">
+            <ul class="tpl-left-nav-menu">
+                <li class="tpl-left-nav-item">
+                    <a href="/membership" class="nav-link active">
+                        <i class="am-icon-home"></i>
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li class="tpl-left-nav-item">
+                    <a href="/membership/table" class="nav-link">
+                        <i class="am-icon-table"></i>
+                        <span>表单</span>
+                    </a>
+                </li>
+                <li class="tpl-left-nav-item">
+                    <a href="/membership/login" class="nav-link tpl-left-nav-link-list">
+                        <i class="am-icon-sign-out"></i>
+                        <span>退出</span>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% block index %}{% endblock index %}
+    {% block table %}{% endblock table %}
+    {% block result %}{% endblock result %}
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/amazeui.min.js' %}"></script>
+    <script src="{% static 'assets/js/iscroll.js' %}"></script>
+    <script src="{% static 'assets/js/app.js' %}"></script>
+</body>
+
+</html>

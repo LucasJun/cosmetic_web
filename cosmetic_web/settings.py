@@ -24,7 +24,7 @@ SECRET_KEY = 'kq5ao-^042%msc%a)31h@4t15x6to25tr1!g6_gp0imajodul='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['www.jyu106.top',
                  '127.0.0.1',
@@ -42,16 +42,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cosmetic',
     'wechat',
+    'membership',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'membership.middleware.verifyMiddleware.VerifyMiddleware',      # 验证访客是否登录中间件
 ]
 
 ROOT_URLCONF = 'cosmetic_web.urls'
@@ -59,7 +61,8 @@ ROOT_URLCONF = 'cosmetic_web.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # 前端页面模版文件夹路径设置
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),
+                 os.path.join(BASE_DIR, 'templates/membership')],  # 前端页面模版文件夹路径设置
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -129,8 +132,9 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),
 # 项目设置中设置接入MongoDB数据库系统
 from mongoengine import connect
 
-# connect(db='cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
+connect(db='cosmetic', host='127.0.0.1', port=27017)  # 选择连接的数据库，指定host和端口
 
-connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)
+# connect(db='cosmetic', username='lucas', password='mongodb', host='localhost', port=27017)
 
 
+LOGIN_URL = '/membership/login'

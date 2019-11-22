@@ -20,4 +20,5 @@ urlpatterns = [
     path('cosmetic/', include('cosmetic.urls')),    # 添加cosmetic/作为网站应用入口，应用urls指向cosmetic.urls
     path('admin/', admin.site.urls),    # admin为管理员应用入口，Django默认开启
     path('wx/', include('wechat.urls',namespace='wechat')),
+    path('membership/', include('membership.urls')),
 ]
