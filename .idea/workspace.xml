@@ -2,70 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e7d2046-f1b4-40a1-a8b7-25975d10e01b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/membership/middleware/verifyMiddleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/membership/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/membership/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/app-icon72x72@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/admin-safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/adminPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/blogPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/landing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/landingPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/loginPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/examples/sidebarPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/i/startup-640x1096.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/a9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/lbbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/syncfusion-icons-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/user01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/user02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/user03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/user04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/user05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/user06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/user07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/amazeui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/iscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/membership/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/membership/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/membership/record.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/membership/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/membership/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/membership/temp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmetic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cosmetic_web/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_web/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmetic_web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/semantic.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/semantic.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567960757666</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="新增后台管理功能">
+      <created>1574417789060</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574417789060</updated>
+    </task>
+    <task id="LOCAL-00010" summary="新增后台管理功能">
+      <created>1574417847374</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574417847374</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +149,7 @@
     <MESSAGE value="针对服务器端调整" />
     <MESSAGE value="local update" />
     <MESSAGE value="模态框调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="模态框调整" />
+    <MESSAGE value="新增后台管理功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增后台管理功能" />
   </component>
 </project>
